@@ -5,7 +5,7 @@ export const state = () => ({
   projectsDescription: "Some of the projects I have successfully completed",
   projects: [
     {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
+      id: "simple_crud_framework_nuxtjs",
       title: "Simple CRUD Framework Nuxt.js",
       category: "Web Application",
       img: "https://vuejsexamples.com/content/images/2021/11/Blog-with-firebase-CRUD-NuxtJs.jpg",
