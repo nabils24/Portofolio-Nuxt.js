@@ -5,7 +5,7 @@ export const state = () => ({
   projectsDescription: "Some of the projects I have successfully completed",
   projects: [
     {
-      id: "simple_crud_framework_nuxtjs",
+      id: "1",
       title: "Simple CRUD Framework Nuxt.js",
       category: "Web Application",
       img: "https://vuejsexamples.com/content/images/2021/11/Blog-with-firebase-CRUD-NuxtJs.jpg",
@@ -59,6 +59,97 @@ export const state = () => ({
           id: uuidv4(),
           details:
             "Deskripsi Kosong",
+        },
+
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/#",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com/nabilss24",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Youtube",
+          icon: "youtube",
+          url: "https://www.youtube.com/channel/UCBJEoGYJLx6LkB-JY2ncAWQ",
+        },
+      ],
+    },
+    {
+      id: "2",
+      title: "Suitku",
+      category: "Web Application",
+      img: "https://res.cloudinary.com/dxrgnigvy/image/upload/v1656831392/WhatsApp_Image_2022-07-03_at_13.56.16_yagx1y.jpg",
+      publishDate: "23, 06, 2022",
+      tag: "UI / Frontend",
+      clientTitle: "Tentang Projek",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Game simple suit yang dibuat menggunakan javascript dan framework Nuxt.js",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Deskripsi",
+      socialTitle: "Share Ini",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Simple Game Suit",
+          img: "https://res.cloudinary.com/dxrgnigvy/image/upload/v1656831392/WhatsApp_Image_2022-07-03_at_13.56.16_yagx1y.jpg",
+        }
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: " Simple CRUD Framework Nuxt.js",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "Coming-soon (Localhost)",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "085930258437",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Nuxt.js",
+        "vuetify,"
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Game simple yang dibuat menggunakan javascript dan framework Nuxt.js dan diupke vercel.app",
         },
 
       ],
