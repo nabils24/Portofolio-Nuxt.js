@@ -120,7 +120,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Name",
-          details: " Simple CRUD Framework Nuxt.js",
+          details: " Game Suit sederhana",
         },
         {
           id: uuidv4(),
@@ -130,7 +130,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "Coming-soon (Localhost)",
+          details: "https://suitku.vercel.app/",
         },
         {
           id: uuidv4(),
