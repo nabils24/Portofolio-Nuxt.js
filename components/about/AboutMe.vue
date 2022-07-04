@@ -31,7 +31,7 @@ export default {
     <!-- About profile image -->
     <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
       <img
-         src="https://api.lolhuman.xyz/api/meme/memeindo?apikey=1938409d3a21b38cebb15c63"
+         src="https://avatars.githubusercontent.com/nabils24"
         class="rounded-lg w-96"
         alt=""
       />
