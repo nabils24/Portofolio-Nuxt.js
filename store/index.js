@@ -204,7 +204,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Apiku",
-          img: "https://telegra.ph/file/d810c6af33d437a1d5f8c.png"",
+          img: "https://telegra.ph/file/d810c6af33d437a1d5f8c.png",
         }
       ],
       companyInfos: [
@@ -227,6 +227,101 @@ export const state = () => ({
           id: uuidv4(),
           title: "Github",
           details: "https://github.com/nabils24/apiku",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "085930258437",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Express.js",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Apiku adalah rest api sederhana yang menggunakan express js untuk backendnya dan memanfaatkan module cherioo untuk scrape berbagai website seperti berita,film, online shop, dll dibuatnya rest api ini adalah untuk menambah porto saya",
+        },
+
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/#",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com/nabilss24",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/",
+        },
+        {
+          id: uuidv4(),
+          name: "Youtube",
+          icon: "youtube",
+          url: "https://www.youtube.com/channel/UCBJEoGYJLx6LkB-JY2ncAWQ",
+        },
+      ],
+    },
+    {
+      id: "4",
+      title: "Nglku",
+      category: "Web Application",
+      img: "https://telegra.ph/file/c916775430b3493032bb8.png",
+      publishDate: "22, 12, 2022",
+      tag: "UI / Frontend",
+      clientTitle: "Tentang Projek",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "nglku atau not gonna lie adalah aplikasi yang dapat mengirim pesan rahasia",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Deskripsi",
+      socialTitle: "Share Ini",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Nglku",
+          img: "https://telegra.ph/file/c916775430b3493032bb8.png",
+        }
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Apiku",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://nglku.vercel.app/",
+        },
+        {
+          id: uuidv4(),
+          title: "Github",
+          details: "https://gitlab.com/nabils24/nglku",
         },
         {
           id: uuidv4(),
