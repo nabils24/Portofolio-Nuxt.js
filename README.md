@@ -7,7 +7,6 @@
 
 <ul>
   <li>👋 Selamat datang diportofolio website nabils24</li>
-  <li>❤️ Saya menggunakan framework Vue js dan php untuk menggunakan api</li>
-  <li>🧐 Portfolio Website (Vercel)= https://nabils24-portofolio.vercel.app/</li>
+  <li>❤️ Saya menggunakan framework Vue js</li>
   <li>Copyright 2022</li>
 </ul>
